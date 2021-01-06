@@ -1,15 +1,15 @@
 # HW4 Image-Super-Resolution
 
-##requirement
+## requirement\n
 tensorflow==1.15
 
-##Training
+## Training\n
 `python main.py --train --fromscratch --scale <scale> --epochs <epochs> --traindir <path to training dataset> --validdir <path to testing dataset>`
 
-##Inferance
+## Inferance\n
 `python inferance.py --scale <scale> --input_dir <path to input folder or image> --output_dir <path to output folder> --ckpt_path <path to ckpt>`
 
-##Reference 
+## Reference\n
 
 [1] Bee Lim, Sanghyun Son, Heewon Kim, Seungjun Nah, and Kyoung Mu Lee, "Enhanced Deep Residual Networks for Single Image Super-Resolution," 2nd NTIRE: New Trends in Image Restoration and Enhancement workshop and challenge on image super-resolution in conjunction with CVPR 2017.
 
